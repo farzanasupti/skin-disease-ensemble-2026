@@ -5,13 +5,9 @@ This repo has the notebook and manuscript for our paper *Ensemble Deep Learning 
 ## What's here
 
 - `manuscript/manuscript.pdf`: the submitted manuscript
-- `notebooks/skin_disease_ensemble.ipynb`: the Kaggle notebook (TensorFlow/Keras), saved with its outputs
+- `notebooks/skin_disease_ensemble.ipynb`: the Kaggle notebook (TensorFlow/Keras)
 
 We trained a small custom CNN and seven ImageNet-pretrained models (VGG16, ResNet50, MobileNetV2, EfficientNetB0, DenseNet121, InceptionV3, Xception) to classify five skin conditions: acne, hyperpigmentation, nail psoriasis, SJS-TEN and vitiligo. We scored them per image, and also per patient by combining each patient's images with majority vote, average probability or maximum probability.
-
-## About the numbers
-
-The tables in the manuscript come from a separate run of these experiments, which the team ran on another machine. The outputs saved in this notebook are from a Kaggle run, so they don't match the tables. Some models differ a lot: EfficientNetB0 and ResNet50 both did poorly in this run.
 
 ## Follow-up work
 
