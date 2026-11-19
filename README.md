@@ -9,6 +9,10 @@ This repo has the notebook and manuscript for our paper *Ensemble Deep Learning 
 
 We trained a small custom CNN and seven ImageNet-pretrained models (VGG16, ResNet50, MobileNetV2, EfficientNetB0, DenseNet121, InceptionV3, Xception) to classify five skin conditions: acne, hyperpigmentation, nail psoriasis, SJS-TEN and vitiligo. We scored them per image, and also per patient by combining each patient's images with majority vote, average probability or maximum probability.
 
+## A note on the numbers
+
+The tables in the manuscript come from a separate run on another server. The outputs saved in this notebook are from an earlier Kaggle run, so they don't match the tables.
+
 ## Follow-up work
 
 I later took a closer look at the public Mendeley version of this dataset and found that most of its images are augmented copies of a few hundred original photos. That work, with grouped cross-validation and testing on the original photos only, is in a separate repo: [skin-disease-classification](https://github.com/farzanasupti/skin-disease-classification).
