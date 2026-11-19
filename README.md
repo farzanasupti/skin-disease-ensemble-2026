@@ -11,7 +11,7 @@ We trained a small custom CNN and seven ImageNet-pretrained models (VGG16, ResNe
 
 ## About the numbers
 
-The tables in the manuscript come from a separate run of these experiments, which the team ran on another machine. The outputs saved in this notebook are from an earlier Kaggle run, so they won't match the tables exactly.
+The tables in the manuscript come from a separate run of these experiments, which the team ran on another machine. The outputs saved in this notebook are from a Kaggle run, so they won't match the tables exactly.
 
 ## Follow-up work
 
